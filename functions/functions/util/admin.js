@@ -1,9 +1,8 @@
-const admin = require('firebase-admin');
+var admin = require("firebase-admin");
+
+var serviceAccount = require("./malumodas.json");
 
 admin.initializeApp({
-  credential: admin.credential.cert(require('../../../../../CHAVES SITES/malumodas-43869-firebase-adminsdk-hfaso-1f4e841f87.json'))
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://malumodas-43869.firebaseio.com"
 });
-
-const db = admin.firestore();
-
-module.exports = { admin, db };
