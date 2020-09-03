@@ -3,7 +3,14 @@ import React from 'react';
 function Header() {
   return (
     <div className="header">
-      <h1>Header Aqui</h1>
+      <div className="logo-links-header">
+        <a className="logo-all" href="#">Malu Modas</a>
+        <ul className="links-header">
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
     </div>
   )
 }
