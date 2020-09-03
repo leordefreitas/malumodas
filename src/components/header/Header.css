@@ -1,9 +1,27 @@
 .header{
   background-color: #FFFCF2;
   color: #F50400;
+  height: 60px;
 }
 .logo-links-header{
-  width: 1000px;
+  margin: 0 auto;
+  width: 1000px; height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+ul.links-header{
+  display: flex;
+  list-style-type: none;
+}
+ul.links-header li a{
+  text-decoration: none;
+  margin: 0 15px;
+  color: #F50400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+ul.links-header li a:hover{
+  text-decoration-line: underline;
 }

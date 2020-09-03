@@ -1,3 +1,10 @@
 .App{
   height: auto; width: auto;
 }
+/* logo */
+a.logo-all{
+  text-decoration: none;
+  color: #F50400;
+  font-family: 'Parisienne', cursive;
+  font-size: 1.3rem;
+}
