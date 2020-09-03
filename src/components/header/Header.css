@@ -1,0 +1,9 @@
+.header{
+  background-color: #F50400;
+  color: #FFFCF2;
+}
+.logo-links-header{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
