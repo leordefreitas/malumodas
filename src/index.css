@@ -1,6 +1,13 @@
 body{
   margin: 0;
+  /* temporario */
+  background-color: #333;
 }
-html{
+/*
+trabalhar nisso quando eu terminar o projeto ai entao vou
+mexer na responsividade, para que quando a tela
+diminuir ele se comporte da maneira adequada
+*/
+/* html{
   width: max-content; height: max-content;
-}
+} */
