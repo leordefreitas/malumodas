@@ -1,7 +1,7 @@
 ### BRANCHS
 As branchs são feitas através de etapas ao qual serão abaixo especificadas.
 
--MVP1
+MVP1
   - header
   - footer
   - seção chamativa
