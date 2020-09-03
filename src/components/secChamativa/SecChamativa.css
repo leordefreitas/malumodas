@@ -12,8 +12,20 @@ div.texto-secao-chamativa{
   position: absolute;
   z-index: 2;
   text-align: center;
-  top: 35%; left: 35%;
+  top: 30%; left: 30%;
+}
+div.secao-chamativa div.texto-secao-chamativa p{
+  margin: 0 0;
 }
 p#titulo-secao-chamativa{
-  
+  font-family: 'Parisienne', cursive;
+  font-size: 3.7rem;
+  color: #0C0F0A;
+  margin-bottom: 10px;
+}
+p#complemento-secao-chamativa{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #0C0F0A;
+  font-weight: 700;
 }
