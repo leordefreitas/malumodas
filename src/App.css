@@ -5,6 +5,9 @@
 a.logo-all{
   text-decoration: none;
   color: #F50400;
-  font-family: 'Parisienne', cursive;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-family: Parisienne;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
 }

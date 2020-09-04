@@ -12,20 +12,26 @@ div.texto-secao-chamativa{
   position: absolute;
   z-index: 2;
   text-align: center;
-  top: 30%; left: 30%;
+  top: 40%; left: 30%;
 }
 div.secao-chamativa div.texto-secao-chamativa p{
   margin: 0 0;
 }
 p#titulo-secao-chamativa{
-  font-family: 'Parisienne', cursive;
-  font-size: 3.7rem;
-  color: #0C0F0A;
-  margin-bottom: 10px;
+  font-size: 5.7rem;
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: #F50400;
+  font-family: Parisienne;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
 }
 p#complemento-secao-chamativa{
-  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #0C0F0A;
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
 }

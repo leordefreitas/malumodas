@@ -18,9 +18,11 @@ ul.links-header li a{
   text-decoration: none;
   margin: 0 15px;
   color: #F50400;
-  font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
 }
 ul.links-header li a:hover{
   text-decoration-line: underline;
