@@ -1,10 +1,12 @@
 .secao-galeria{
-  height: 400px;
+  height: 360px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFCF2;
+  padding: 40px 0px;
 }
 #fotos-secao-galeria{
   height: 250px; width: 800px;
@@ -13,4 +15,12 @@
 }
 #fotos-secao-galeria img{
   width: 190px;
+}
+p#titulo-secao-galeria{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 25px 0px;
 }
