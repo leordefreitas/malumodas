@@ -1,0 +1,16 @@
+.secao-galeria{
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#fotos-secao-galeria{
+  height: 250px; width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+#fotos-secao-galeria img{
+  width: 190px;
+}
