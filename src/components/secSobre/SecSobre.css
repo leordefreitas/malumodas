@@ -1,13 +1,31 @@
 .secao-sobre{
   height: 400px;
   background-color: #F50400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .secao-sobre img{
   height: 320px; width: 260px;
+  margin-right: 50px;
 }
-div.texto-secao-sobre{
-  position: absolute;
-  z-index: 2;
-  text-align: center;
-  top: 40%; left: 30%;
+div#texto-secao-sobre{
+  width: 390px;
+  margin-left: 50px;
+}
+p#titulo-secao-sobre{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.1rem;
+  line-height: 35px;
+  color: #FFFCF2;
+}
+p#complemento-secao-sobre{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 140.2%;
+  color: #FFFCF2;
 }

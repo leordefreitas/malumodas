@@ -7,8 +7,8 @@ function SecSobre() {
     <div className="secao-sobre">
       <img src={imagenSobre} alt="imagen sobre" />
       <div id="texto-secao-sobre">
-        <h1>Sobre</h1>
-        <p>Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem num gosta di mé, boa gentis num é. Casamentiss faiz malandris se pirulitá. Manduma pindureta quium dia nois paga.</p>
+        <p id="titulo-secao-sobre">Sobre</p>
+        <p id="complemento-secao-sobre">Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem num gosta di mé, boa gentis num é. Casamentiss faiz malandris se pirulitá. Manduma pindureta quium dia nois paga.</p>
       </div>
     </div>
   )
