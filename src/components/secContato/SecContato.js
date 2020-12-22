@@ -1,7 +1,7 @@
 import React from 'react';
-import './SecEntreEmContato.css';
+import './SecContato.css';
 
-function SecEntreEmContato() {
+function SecContato() {
   return (
     <div className="secao-entreEmContato">
       
@@ -9,4 +9,4 @@ function SecEntreEmContato() {
   )
 }
 
-export default SecEntreEmContato;
+export default SecContato;
