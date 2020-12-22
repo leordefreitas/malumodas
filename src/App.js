@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import SecChamativa from './components/secChamativa/SecChamativa';
 import SecGaleria from './components/secGaleria/SecGaleria';
 import SecSobre from './components/secSobre/SecSobre';
+import SecContato from './components/secContato/SecContato';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SecChamativa />
       <SecGaleria />
       <SecSobre />
+      <SecContato />
     </div>
   );
 }
