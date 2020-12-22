@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/header/Header';
 import SecChamativa from './components/secChamativa/SecChamativa';
 import SecGaleria from './components/secGaleria/SecGaleria';
+import SecSobre from './components/secSobre/SecSobre';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <SecChamativa />
       <SecGaleria />
+      <SecSobre />
     </div>
   );
 }
