@@ -5,6 +5,6 @@ MVP1
   - header
   - footer
   - seção chamativa
+
+MVP2
   - seção galeria
-  - seção sobre
-  - seção entre em contato
