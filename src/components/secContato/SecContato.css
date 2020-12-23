@@ -1,0 +1,32 @@
+.secao-contato{
+  height: 400px;
+  background-color: #FFFCF2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#horario-informacao-secao-contato{
+  margin-top: 60px;
+}
+p.titulo-loja-informacao{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0C0F0A;
+  margin: 20px 0px;
+}
+p.texto-loja-informacao{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #0C0F0A;
+  margin: 10px 0px;
+}
