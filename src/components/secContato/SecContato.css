@@ -17,7 +17,7 @@ p.titulo-loja-informacao{
   display: flex;
   align-items: center;
   color: #0C0F0A;
-  margin: 20px 0px;
+  margin-bottom: 20px;
 }
 p.texto-loja-informacao{
   font-family: Roboto;
@@ -29,4 +29,47 @@ p.texto-loja-informacao{
   align-items: center;
   color: #0C0F0A;
   margin: 10px 0px;
+}
+div#input-secao-contato{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+div#input-secao-contato div p{
+  margin: 0px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #0C0F0A;
+}
+div#input-secao-contato div input{
+  margin-bottom: 20px;
+  width: 292px; height: 30px;
+  border-radius: 0px;
+}
+div#input-secao-contato div input:focus{
+  border-radius: 0px;
+}
+div#informacao-secao-contato{
+  margin-left: 70px;
+}
+div#input-secao-contato button{
+  background-color: #F50400;
+  color: #FFFCF2;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 14px;
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
 }

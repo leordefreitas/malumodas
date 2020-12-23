@@ -5,12 +5,18 @@ function SecContato() {
   return (
     <div className="secao-contato">
       <div id="input-secao-contato">
-        <p>Nome</p>
-        <input type="text"/>
-        <p>Whatsapp</p>
-        <input type="text"/>
-        <p>Email</p>
-        <input type="email"/>
+        <div>
+          <p>Nome</p>
+          <input type="text"/>
+        </div>
+        <div>
+          <p>Whatsapp</p>
+          <input type="text"/>
+        </div>
+        <div>
+          <p>Email</p>
+          <input type="email"/>
+        </div>
         <button>Cadastrar</button>
       </div>
       <div id="informacao-secao-contato">
