@@ -4,7 +4,15 @@ import './SecContato.css';
 function SecContato() {
   return (
     <div className="secao-contato">
-      <div id="input-secao-contato"></div>
+      <div id="input-secao-contato">
+        <p>Nome</p>
+        <input type="text"/>
+        <p>Whatsapp</p>
+        <input type="text"/>
+        <p>Email</p>
+        <input type="email"/>
+        <button>Cadastrar</button>
+      </div>
       <div id="informacao-secao-contato">
         <div id="loja-informacao-secao-contato">
           <p className="titulo-loja-informacao">Malu Modas</p>
