@@ -7,15 +7,17 @@ import SecChamativa from './components/secChamativa/SecChamativa';
 import SecGaleria from './components/secGaleria/SecGaleria';
 import SecSobre from './components/secSobre/SecSobre';
 import SecContato from './components/secContato/SecContato';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <SecChamativa />
       <SecGaleria />
       <SecSobre />
-      <SecContato />
+      <SecContato /> */}
+      <Footer />
     </div>
   );
 }

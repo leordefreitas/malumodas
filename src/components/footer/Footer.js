@@ -9,9 +9,18 @@ import whatsappIcon from '@iconify/icons-cib/whatsapp';
 function Footer() {
   return (
     <div className="footer">
-      <Icon icon={facebookF} color="#FFFCF2" />
-      <Icon icon={instagramIcon} color="#FFFCF2" />
-      <Icon icon={whatsappIcon} color="#FFFCF2" />
+      <div id="footer-icones-titulo-logo">
+        <div id="footer-icones-titulo">
+          <p id="footer-titulo">Redes sociais</p>
+          <div id="footer-icones">
+            <Icon icon={facebookF} color="#FFFCF2" />
+            <Icon icon={instagramIcon} color="#FFFCF2" />
+            <Icon icon={whatsappIcon} color="#FFFCF2" />
+          </div>
+        </div>
+        <a className="logo-all" href="#">Malu Modas</a>
+      </div>
+      <p id="footer-copyrights">Desenvolvido por Leonardo R. de Freitas</p>
     </div>
   )
 }
