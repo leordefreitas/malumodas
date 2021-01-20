@@ -13,9 +13,9 @@ function Footer() {
         <div id="footer-icones-titulo">
           <p id="footer-titulo">Redes sociais</p>
           <div id="footer-icones">
-            <Icon icon={facebookF} color="#FFFCF2" />
-            <Icon icon={instagramIcon} color="#FFFCF2" />
-            <Icon icon={whatsappIcon} color="#FFFCF2" />
+            <Icon height={22} icon={facebookF} color="#FFFCF2" />
+            <Icon height={22} icon={instagramIcon} color="#FFFCF2" />
+            <Icon height={22} icon={whatsappIcon} color="#FFFCF2" />
           </div>
         </div>
         <a className="logo-all" href="#">Malu Modas</a>
