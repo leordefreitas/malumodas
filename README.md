@@ -12,3 +12,4 @@ MVP2
 MVP3
   - seção sobre
   - seção contato
+  - footer
